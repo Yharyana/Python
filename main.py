@@ -28,4 +28,20 @@ name="muhhamed"
 print("pierwsza litera imienia",name[0])
 print("ostatnia litera imienia",name[-1])
 name="n"+name[1:] #to jest w usmie utworzenie nowego napisu przypisanny do starej zmiennej ale to dygresja juz
-print[name]
+print(name)
+words="to jest zdanie".split(" ")
+print(words)
+print(f"pierwsze słowo to {words[0]}")
+#zadania
+favourite_sports=["triatlon","bridge","bobslej"]
+print(f"to jest ulubiony sport który napewno sanm {favourite_sports[0]} a to jest mój znienadziwony {favourite_sports[-1]}")
+favourite_sports[1]="football"
+print(favourite_sports)
+jedzenie1=input("jaka jest twa top 1 potrawa?")
+jedzenie2=input("jaka jest twa top 2 potrawa?")
+jedzenie3=input("jaka jest twa top 3 potrawa?")
+fav_potrawki=[jedzenie1,jedzenie2,jedzenie3]
+print(fav_potrawki)
+nr_celly=input("pojda swój numer celly")
+nr_celly=nr_celly[:3]+6*"-"
+print(nr_celly)
