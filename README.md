@@ -1,0 +1,1 @@
+#to jest folder  na prace  na nauke z pythoa. Nic ambitnego so far
